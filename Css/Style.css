@@ -1,0 +1,66 @@
+.home{
+    background-image: url(./book\ discussion.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    text-align: center;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.home2 h2::after{
+    content: "|";
+    animation-name: ramz;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ramz{
+    0%{content: "|";}
+    5%{content: "i|";}
+    10%{content: "ia|";}
+    15%{content: "ian|";}
+    20%{content: "ian L|";}
+    25%{content: "ian Li|";}
+    30%{content: "ian Lib|";}
+    35%{content: "ian Libr|";}
+    40%{content: "ian Libra|";}
+    45%{content: "ian Librar|";}
+    50%{content: "ian Library|";}
+    55%{content: "ian Librar|";}
+    60%{content: "ian Libra|";}
+    65%{content: "ian Libr|";}
+    70%{content: "ian Lib|";}
+    75%{content: "ian Li|";}
+    80%{content: "ian L|";}
+    85%{content: "ian|";}
+    90%{content: "ia|";}
+    95%{content: "|i";}
+    100%{content: "|";}
+}
+.parent{
+    background-image: url(./Opsis-Architecture-Clackamas-County-Oak-Lodge-Library-Interior-Welcome-Desk-Rendering.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 500px;
+}
+.two{
+    font-size: 25px;
+}
+.three{
+    background-image: url(./pngtree-sleek-and-contemporary-3d-render-of-modern-library-interior-picture-image_8473748.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 500px;
+}
+.four{
+    font-size: 25px;
+}
+
